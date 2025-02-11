@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Constants.deviceId` API on Android devices running Android 10 (API level 29) or higher. The API returns an empty string or null instead of a unique device identifier. This can disrupt functionality that relies on unique device IDs for user tracking, analytics, or other purposes.
